@@ -19,6 +19,16 @@ This is just a research excercise, but hopefully it'll be fruitful.
 
 - **Stake pool**: A pool of funds that are logically similar (e.g. stakes for a vote *A* should be in the same pool, but in a different pool from vote *B*).
 
+## Token Curated Registries
+
+The primary idea is that this app could be used to create token curated registries.  
+  
+Install this app, the registry app and the voting app in your organisation. The only entity that can add/remove entries to/from the registry is the voting app, and the only entity who can create votes and vote in votes is the staking app.  
+  
+The only entity that can transition pool states is the voting app, too.  
+  
+Tada! :tada:
+
 ## Team
 
 Advisors: Santa Claus, Jesus Christ, Moses
