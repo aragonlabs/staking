@@ -8,7 +8,7 @@ import "@aragon/core/contracts/common/MiniMeToken.sol";
 
 // TODO: `deposit` function for increasing a stake
 // TODO: `withdraw` function for decreasing a stake
-// TODO: Add events
+// TODO: Add events (deposit, withdraw, pool state updated)
 // TODO: Add script runner interface
 contract StakingApp is App, Initializable, IForwarder {
     MiniMeToken public token;
